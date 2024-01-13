@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FMC code]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/flexbox-LtOSCwbJ3x))
 - Live Site URL: [blog-preview-card-main](https://blog-preview-card-main2.netlify.app)
 
 ## My process
@@ -44,7 +44,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Next.js](https://nextjs.org/) - React framework
 - [SASS/SCSS](https://sass-lang.com/guide/) - For styles
 
 

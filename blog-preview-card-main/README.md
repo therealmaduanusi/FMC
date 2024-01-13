@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FMC code]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/flexbox-LtOSCwbJ3x))
+- Solution URL: [FMC code](https://your-solution-url.com](https://www.frontendmentor.io/solutions/flexbox-LtOSCwbJ3x))
 - Live Site URL: [blog-preview-card-main](https://blog-preview-card-main2.netlify.app)
 
 ## My process

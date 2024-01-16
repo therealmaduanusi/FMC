@@ -117,7 +117,7 @@ Focusing more on DOM optimization
 
 ## Author
 
-- Website - [Victor Maduanusi](https://www.your-site.com)
+- Website - [Victor Maduanusi](https://victormaduanusi.netlify.app/)
 - Frontend Mentor - [@therealmaduanusi](https://www.frontendmentor.io/profile/therealmaduanusi)
 - Twitter - [@madu_anusi](https://www.twitter.com/madu_anusi)
 

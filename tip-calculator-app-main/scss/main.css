@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  padding: 2rem 0;
+}
+
+img,
+button,
+input {
+  display: block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+}
+
+.main {
+  max-width: 800px;
+}
+
+.logo {
+  margin: auto;
+}
+
+.main-contents {
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.result {
+  background-color: hsl(183, 100%, 15%);
+  padding: 25px;
+  border-radius: 0.5rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.result .amount-total-container {
+  flex-grow: 2;
+}
+.result .amount-total-container {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.result .amount-total-container .tip-results {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+.result .amount-total-container .tip-results .tip-person {
+  display: block;
+  color: hsl(184, 14%, 56%);
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+}
+.result .amount-total-container .tip-results p:nth-child(2) {
+  color: hsl(172, 67%, 45%);
+  font-size: 2rem;
+}
+.result .reset-btn {
+  min-width: 100%;
+  padding: 1rem 0;
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(172, 67%, 45%);
+  border-radius: 0.5rem;
+}
+.result .reset-btn:hover {
+  background-color: hsl(189, 41%, 97%);
+}
+
+.input-value {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  line-height: 2rem;
+  width: 100%;
+}
+.input-value .set-value {
+  min-width: 100%;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  text-align: right;
+}
+.input-value .set-value:hover {
+  border: 2px solid hsl(172, 67%, 45%);
+}
+.input-value .set-value::-moz-placeholder {
+  text-align: right;
+}
+.input-value .set-value::placeholder {
+  text-align: right;
+}
+.input-value .input-icons {
+  position: relative;
+  top: -2.1rem;
+  left: 10px;
+}
+
+.tip-percentage-container .percentage-grid {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 3.7rem;
+}
+.tip-percentage-container .percentage-grid .btn-tip-percent {
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+}
+.tip-percentage-container .percentage-grid .btn-tip-percent:hover {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+.tip-percentage-container .percentage-grid .custom-input {
+  text-align: center;
+  border: none;
+  min-width: 100%;
+  font-size: 24px;
+  background-color: hsl(189, 41%, 97%);
+}
+.tip-percentage-container .percentage-grid .custom-input:hover {
+  border: 2px solid hsl(172, 67%, 45%);
+  background-color: hsl(189, 41%, 97%);
+}
+
+@media (min-width: 375px) {
+  body {
+    min-height: 49rem;
+  }
+  .main-contents {
+    flex-direction: row;
+  }
+  .percentage-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 374px) {
+  .percentage-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -39,7 +39,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FCM Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/tip-calculator-using-js-and-scss-Dla7v6B1YE))
 - Live Site URL: [Tip calculator](https://tip-calculator-main-app1.netlify.app/)
 
 ## My process
